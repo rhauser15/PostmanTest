@@ -1,0 +1,17 @@
+id = 55a7753a-fb73-4a12-a20d-757f1b9cdee5
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"23696293-5bad8707-6a39-434c-bf7a-05e2b9f3b20d","path":"Non-oAuth Scopes example.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"OpenAPISpec.json","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3_1
+rootFiles[] = OpenAPISpec.json
